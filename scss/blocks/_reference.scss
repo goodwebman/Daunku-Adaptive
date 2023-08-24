@@ -1,0 +1,213 @@
+
+.reference {
+    margin-top: 258px;
+}
+
+.reference__text-block {
+    text-align: center;
+}
+
+.reference__title {
+    color: #081323;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.reference__subtitle {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 27px;
+}
+
+.reference-imgs {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    grid-gap: 32px;
+    padding-top: 100px;
+    
+
+
+    // Grid
+
+    &__first {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-image: url('./../img/Reference/sofa.jpg');
+        background-size: cover;
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1; /* Элемент занимает первую и вторую строки */
+        border-radius: 47px;
+        width: 735px;
+        height: 549px;
+        flex-shrink: 0;
+        text-align: center;
+        transition: all .15s ease-in;
+        
+        
+        
+        
+
+        p {
+            opacity: 0;
+            display: block;
+            
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 600;
+            color: #fff;
+            transition: opacity .15s ease-in;            
+        }
+
+        &:hover {
+            p {
+                opacity: 1;
+                display: block;
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 600;
+                color: #fff;
+                transition: all .15s ease-in;
+                
+                
+                
+            }
+
+            &::after {
+                content: "";
+                background: rgba(0, 0, 0, 0.1);
+                border-radius: inherit; /* Цвет заднего плана с полупрозрачностью */
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                transition: all .15s ease-in;
+                
+            }
+        }
+        
+    }
+
+    &__second {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-image: url('./../img/Reference/desk.jpg');
+        background-size: cover;
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1; /* Элемент занимает третью строку */
+        width: 734px;
+        height: 404px;
+        flex-shrink: 0;
+        border-radius: 47px;
+
+        p {
+            opacity: 0;
+            
+            
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 600;
+            color: #fff;
+            transition: opacity .15s ease-in;            
+        }
+
+        &:hover {
+            p {
+                opacity: 1;
+                
+                
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 600;
+                color: #fff;
+                
+                
+                
+            }
+
+
+            &::after {
+                content: "";
+                background: rgba(0, 0, 0, 0.1);
+                border-radius: inherit; /* Цвет заднего плана с полупрозрачностью */
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                
+            }
+        }
+
+        
+    }
+
+    &__third {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-image: url('./../img/Reference/plant.jpg');
+        background-size: cover;
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 2; /* Элемент занимает первую и вторую строки */
+        width: 717px;
+        height: 995px;
+        flex-shrink: 0;
+        border-radius: 47px;
+
+        p {
+            opacity: 0;
+            display: block;
+            
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 600;
+            color: #fff;
+            transition: opacity .15s ease-in;            
+        }
+
+        &:hover {
+            p {
+                opacity: 1;
+                display: block;
+                line-height: 995px;
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 600;
+                color: #fff;
+                
+                
+                
+            }
+
+            &::after {
+                content: "";
+                background: rgba(0, 0, 0, 0.1);
+                border-radius: inherit; /* Цвет заднего плана с полупрозрачностью */
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+
+    // Text
+
+    
+     
+}
+

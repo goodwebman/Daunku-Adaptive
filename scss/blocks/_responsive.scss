@@ -1,0 +1,461 @@
+@media (max-width: 1910px) {
+    
+.header {
+    background: url(../img/Hero/bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 72px;
+    height: 1290px;
+
+
+    &::after {
+        display: none;
+    }
+
+    
+}
+
+}
+
+
+@media (max-width: 1788px) {
+    .look__plant-1 {
+        display: none;
+    }
+    .look__plant-2 {
+        display: none;
+    }
+
+    
+}
+
+@media (max-width: 1710px) {
+    .reference-imgs__first {
+        height: 384px;
+        width: 514px;
+        margin-left: 200px;
+    }
+
+    .reference-imgs__second {
+        height: 283px;
+        width: 514px;
+        margin-left: 200px;
+    }
+    
+    .reference-imgs__third {
+        height: 696px;
+        width: 512px;
+        margin-right: 200px;
+    }
+}
+
+@media (max-width:1600px) {
+    .footer__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__line {
+        display: none;
+    }
+
+    
+
+    .footer__block {
+        gap: 60px;
+    }
+
+    .footer__nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+@media (max-width:1475px) {
+    .reference-imgs__first {
+        
+        margin-left: 150px;
+    }
+
+    .reference-imgs__second {
+        
+        margin-left: 150px;
+    }
+    
+    .reference-imgs__third {
+        
+        margin-right: 150px;
+    }
+}
+
+@media (max-width:1415px) {
+    .reference-imgs__first {
+        
+        margin-left: 130px;
+    }
+
+    .reference-imgs__second {
+        
+        margin-left: 130px;
+    }
+    
+    .reference-imgs__third {
+        
+        margin-right: 130px;
+    }
+}
+
+@media (max-width:1293px) {
+    .reference-imgs__first {
+        
+        margin-left: 70px;
+    }
+
+    .reference-imgs__second {
+        
+        margin-left: 70px;
+    }
+    
+}
+
+
+
+
+@media (max-width:1230px) {
+    .reference-imgs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reference-imgs__first {
+        
+        margin-left: 0px;
+    }
+
+    .reference-imgs__second {
+        
+        margin-left: 0px;
+    }
+    
+    .reference-imgs__third {
+        
+        margin-right: 0px;
+    }
+    
+}
+
+
+
+@media (max-width: 1440px) {
+    .seller_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:200px;
+    }
+
+    .seller__info {
+        align-items: center;
+        padding-top: 0;
+        text-align: center;
+
+        &-title {
+            font-size: 74px;
+            padding-bottom: 10px;
+        }
+
+        &-subtitle {
+            font-size: 32px;
+        }
+    }
+
+    .seller__plants {
+        max-width: 100%;
+        gap: 76px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1330px) {
+    .care__plant-img {
+        position: relative;
+    }
+
+    .care-plants__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .care-plants__block-title {
+        margin: 0 auto;
+    }
+
+    .care-plants__block-subtitle {
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    
+}
+
+
+
+@media (max-width: 1260px) {
+    .service__advantages {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        
+        justify-content:center;
+    }
+
+    .service__advantages-item {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+
+    .content__title {
+        font-size: 70px;
+    }
+
+    .nav__list {
+        display: none;
+
+    }
+
+    .nav__busket {
+        display: none;
+    }
+
+    // burger
+    
+    .mobile-nav-btn {
+        z-index: 999;
+        display: block !important;
+    }
+
+    
+}
+
+@media (max-width: 1186px) {
+    .seller__plants {
+        
+        gap: 46px;
+        
+    }
+}
+
+@media (max-width: 1060px) {
+    .seller__plants {
+        
+        flex-direction: column;
+        gap:180px;
+    }
+
+    .seller_block {
+        gap: 132px;
+    }
+}
+
+
+@media (max-width: 1010px) {
+    .content__title {
+        font-size: 55px;
+    }
+
+    .content__suptitle {
+        padding-top: 50px;
+    }
+
+    .header-form {
+        margin-top: 80px;
+    }
+
+    .seller {
+        margin-top: 140px;
+    }
+
+    .reference {
+        margin-top: 140px;
+    }
+
+    .footer__email {
+        gap: 52px;
+    }
+}
+
+@media (max-width:990px) {
+    .footer__nav-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;  
+        
+        
+        
+    }
+
+    .footer__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 510px) {
+    .care__advantages-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .care__advantages-item-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .care-plants__block-title {
+        text-align: center;
+    }
+
+    .care-plants__block-subtitle {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 510px) {
+    .header-form { 
+        gap: 90px;
+    }
+
+    .content__suptitle {
+        padding-top: 120px ;
+    }
+
+    .service__advantages-item {
+        width: 340px;
+    }
+
+    .advantages__title {
+        white-space: nowrap;
+    }
+
+    .footer-form {
+        gap: 20px;
+    }
+
+    .footer__nav-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-btn {
+        padding: 12px 12px;
+    }
+
+    .footer-form {
+        gap:0;
+    }
+
+    .footer__copyright {
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width:568px) {
+    .reference-imgs__first {
+        height: 230px;
+        width: 310px;
+        font-size: 32px;
+        
+        p {
+            font-size: 32px;
+
+            
+        }
+        
+    }
+
+    .reference-imgs__first:hover p {
+        font-size: 30px;
+    }
+
+    .reference-imgs__second {
+        height: 170px;
+        width: 315px;
+        font-size: 32px;
+
+        p {
+            font-size: 32px;
+
+            &:hover {
+                font-size: 32px;
+            }
+        }
+        
+    }
+
+    .reference-imgs__second:hover p {
+        font-size: 30px;
+    }
+    
+    .reference-imgs__third {
+        height: 420px;
+        width: 320px;
+        font-size: 32px;
+
+        p {
+            font-size: 32px;
+
+            &:hover {
+                font-size: 32px;
+            }
+        }
+        
+    }
+
+    .reference-imgs__third:hover p {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .content__title {
+        font-size: 50px;
+    }
+
+    .content__suptitle {
+        padding-top: 160px ;
+    }
+
+    .header-form { 
+        gap: 30px;
+    }
+}
+
+@media (max-width: 370px) {
+    .content__title {
+        font-size: 45px;
+    }
+
+    .header-form { 
+        gap: 20px;
+    }
+}

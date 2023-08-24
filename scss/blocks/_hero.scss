@@ -1,0 +1,218 @@
+// Header
+
+.header {
+    background: url(../img/Hero/bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 72px;
+    height: 1290px;
+
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        background-image: url(./../img/Hero/bg-down.svg);
+        height: 208px;
+        width: 100%;
+        bottom: -360px;
+    }
+
+    
+}
+
+
+// Nav
+
+.mobile-nav a:hover, .mobile-nav a.active {
+    color:#009EFD;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 68px;
+
+        
+
+        &-link {
+            color: #fff;
+            font-size: 22.5px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-align: center;
+            transition: color .2s ease-in;
+
+            
+
+            &:hover {
+                color:#009EFD;
+            }
+
+            &--active {
+                
+                font-weight: 600;
+                background: var(--gradient-2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+        }
+
+
+        
+    }
+    
+}
+
+
+
+
+.nav__logo {
+    position: relative;
+
+}
+
+
+
+
+// Busket
+
+.nav__busket {
+    position: relative;
+    &::after {
+        position: absolute;
+        content: '';
+        display: block;
+        right: -7px;
+        top:0;
+        width: 21px;
+        height: 21px;
+        background-image: url(../img/Hero/busket-right-top.svg);
+    }
+}
+
+///////////////////////////////////// Nav end //////////////////////////////////
+
+
+// Header content
+
+.header__content {
+    padding-top: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content__title {
+    max-width: 1128px;
+    max-height: 192px;
+    color: #fff;
+    font-size: 82px;
+    font-weight: 700;
+}
+.content__suptitle {
+    
+    max-width: 583px;
+    color: #FFF;
+    
+    font-size: 24px;
+    
+    font-weight: 400;
+    
+    padding-top: 24px;
+    
+}
+
+
+.header-form {
+    display: inline-flex;
+    align-items: center;
+    gap: 186px;
+    max-height: 72px;
+    
+    margin-top: 52px;
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+}
+
+
+
+.header-input {
+    
+    padding-left: 10px;
+    color:#fff;
+
+    &::placeholder {
+        color:#fff;
+        font-size: 20px;
+        
+        
+        
+    }
+}
+
+
+.header-btn {
+    background: linear-gradient(#2AF598, #009EFD);
+    border-radius: 50%;
+    padding: 12px;
+}
+
+
+
+// Plants
+
+.header__look {
+    position: relative;
+}
+.look__plant-1 {
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        background-image: url(../img/Hero/point-product.svg);
+        width: 54px;
+        height: 54px;
+        right:780px;
+        bottom: 35px;
+    }
+
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        background-image: url(../img/Hero/point-product.svg);
+        width: 54px;
+        height: 54px;
+       right:690px;
+       top:120px;
+    }
+}
+.look__plant-2 {
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        background-image: url(../../img/Hero/price.svg);
+        background-repeat: no-repeat;
+        width: 205px;
+        height: 185px;
+        left: 690px;
+    }
+}

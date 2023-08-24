@@ -1,0 +1,21 @@
+// Base
+
+@import './base/reset';
+@import './base/base';
+@import './base/vars';
+
+
+// Blocks
+
+@import './blocks/hero';
+@import './blocks/service';
+@import './blocks/seller';
+@import './blocks/reference';
+@import './blocks/care';
+@import './blocks/footer';
+
+// Adaptive
+
+@import './blocks/responsive';
+@import './blocks/nav-button';
+@import './blocks/mobile.nav';
